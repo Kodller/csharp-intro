@@ -417,7 +417,8 @@ Le mot "Hibou" au pluriel : hiboux
 Quel mot faut-il mettre au pluriel ? <b>Caribou</b>
 Le mot "Caribou" au pluriel : Caribous
 </pre>
-
+// ne prend pas en compte les mots terminants par x
+	//ex hiboux affiche → le mot est déjà au pluriel && le mot au pluriel : hibouxs
 <details>
 	<summary>Solution</summary>
 
