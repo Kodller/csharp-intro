@@ -378,7 +378,7 @@ public class Program
 			Console.WriteLine("Le \"{0}\" est déjà au pluriel.", mot); 
 		} else {
 			// on sait que le mot ne finit pas par un 's' ou un 'x'
-			// est-ce qu'il finit pour 'ou' ? 
+			// est-ce qu'il finit par 'ou' ? 
 			if (mot.EndsWith("ou")) {
 				// si oui, on met un x
 				Console.WriteLine("Le mot \"{0}\" au pluriel : {1}", mot, mot + "x");
